@@ -36,7 +36,7 @@ header > h1, p{
  
 *{
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 nav{
@@ -56,8 +56,8 @@ nav > a:hover{
 
 main{
     background-color: white;
-    min-width: 300px;
-    max-width: 800px;
+    min-width: 250px;
+    max-width: 900px;
     padding: 20px; 
     margin: auto;
     margin-bottom: 30px;
@@ -83,21 +83,26 @@ main img.pequena {
 }
 
 div.video{
-    background-color: var(--cor3);
-    margin: 0px -20px 30px -20px;
-    padding: 15px;
-    padding-left: 20%;
     position: relative;
+    background-color: var(--cor3);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 58px;
+    margin: 20px;
+    
 }
 
-div.video > inframe{
+div.video  inframe{
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 2.5%;
+    left: 7%;
     width: 90%;
-    height: 90%;
+    height: 95%;
 }
 
+section{
+    display: block;
+}
 article > h1, article > h2{
     font-family: 'android';
 }
